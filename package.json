@@ -9,7 +9,8 @@
   },
   "name": "findnearbyplaces-api",
   "version": "1.0.0",
-  "main": "index.js","engines": { 
+  "main": "index.js",
+  "engines": { 
     "node": "v17.x", 
     "npm": "8.x" 
   },
