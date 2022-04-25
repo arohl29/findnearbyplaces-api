@@ -1,6 +1,6 @@
 {
   "Dependencies": {
-    "bcrypt": "^5.0.1",
+    "bcrypt": "5.x",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",

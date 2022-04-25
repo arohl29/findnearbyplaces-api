@@ -1,5 +1,6 @@
 
-
+/*
+test*/
 const express = require("express");
 const cors = require('cors');
 require('dotenv').config();
@@ -14,7 +15,7 @@ application.use(cors());
 // Schema
 
 application.get('/', (request, response) => {
-  response.status(200).json({done: true, message: 'Sure!'});
+  response.status(200).json({done: true, message: 'Fine!'});
 });
 /*
 application.post('/login', (request, response) => {
@@ -27,7 +28,6 @@ application.post('/login', (request, response) => {
   })
 });
 */
-
 application.get('/search/:search_term/:user_location/:radius_filter/:maximum_results_to_return/:category_filter/:sort/:distance', (request, response) => {
   let search_term = req.parms.user.search_term;
   let user_location = request.parms.user_location;
