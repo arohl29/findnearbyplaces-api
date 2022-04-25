@@ -14,9 +14,9 @@ application.use(cors());
 // Schema
 
 application.get('/', (request, response) => {
-  response.status(200).json({done: true, message: 'Fine!'});
+  response.status(200).json({done: true, message: 'Sure!'});
 });
-/*
+
 application.post('/login', (request, response) => {
   let password = request.body.password;
   let email = request.body.email;
@@ -26,7 +26,7 @@ application.post('/login', (request, response) => {
     response.status(404).json({ done: false, message: "Customer not logged in"})
   })
 });
-*/
+
 application.get('/search/:search_term/:user_location/:radius_filter/:maximum_results_to_return/:category_filter/:sort/:distance', (request, response) => {
   let search_term = req.parms.user.search_term;
   let user_location = request.parms.user_location;
