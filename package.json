@@ -6,5 +6,24 @@
     "express": "^4.17.3",
     "node": "^17.7.2",
     "pg": "^8.7.3"
-  }
+  },
+  "name": "findnearbyplaces-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arohl29/findnearbyplaces-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arohl29/findnearbyplaces-api/issues"
+  },
+  "homepage": "https://github.com/arohl29/findnearbyplaces-api#readme",
+  "description": ""
 }
